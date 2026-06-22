@@ -1,25 +1,3 @@
 # Follow-the-Stars
 Interactive Python simulator that explores how stars have guided explorers for centuries.
-# Follow the Stars: Interactive Constellation Simulator
-
-'Follow the Stars' হলো একটি পাইথন-ভিত্তিক প্রজেক্ট যা প্রাচীন নক্ষত্র ভিত্তিক দিকনির্ণয় পদ্ধতিকে (Star Navigation) ডিজিটাল রূপ দেয়। এটি মুভি 'Moana'-এর অনুপ্রেরণায় তৈরি, যা কনস্টেলেশন বা নক্ষত্রপুঞ্জের জ্যামিতিক অবস্থানের মাধ্যমে দিকনির্ণয়ে সাহায্য করে।
-
-## Features (প্রজেক্টের বৈশিষ্ট্য)
-- **Interactive Simulation:** পাইথন টারটেল (Turtle) ইঞ্জিনের মাধ্যমে নক্ষত্রপুঞ্জের অ্যানিমেশন।
-- **Mathematical Accuracy:** ভেক্টর ক্যালকুলেশন ব্যবহার করে ধ্রুবতারা বা Polaris খুঁজে বের করার সঠিক গাণিতিক মডেল।
-- **Analytical View:** ম্যাটপ্লটলিব (Matplotlib) ব্যবহার করে নক্ষত্রপুঞ্জের ২ডি চার্ট এবং ডেটা ভিউ।
-- **Robust Design:** অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP) এবং কাস্টম এরর হ্যান্ডলিং সিস্টেম।
-
-## How it works (কিভাবে কাজ করে)
-১. প্রজেক্টটি নক্ষত্রপুঞ্জের স্থানাঙ্ক (X, Y) ব্যবহার করে একটি অ্যানিমেশন তৈরি করে।
-২. এটি ভেক্টর সাবট্রাকশন ব্যবহার করে Merak থেকে Dubhe হয়ে Polaris-এর অবস্থান নির্ণয় করে।
-৩. শেষে, এটি একটি ২ডি গ্রাফের মাধ্যমে নক্ষত্রপুঞ্জের বৈজ্ঞানিক বিশ্লেষণ প্রদর্শন করে।
-
-## Technologies Used (ব্যবহৃত প্রযুক্তি)
-- Python
-- NumPy (ভেক্টর গণনার জন্য)
-- Matplotlib (ডেটা ভিজ্যুয়ালাইজেশনের জন্য)
-- Turtle (গ্রাফিক্স এনিমেশনের জন্য)
-
-## Contact
-এই প্রজেক্টটি সম্পর্কে তোমার কোনো প্রশ্ন থাকলে বা কোনো ফিডব্যাক দিতে চাইলে যোগাযোগ করতে পারো।
+This project is an interactive Python simulator that explores star navigation, inspired by the techniques used by ancient explorers. It utilizes Object-Oriented Programming and NumPy for efficient vector calculations to map and identify constellations like the Big Dipper and Polaris. The simulator features a custom turtle-based animation to visualize star patterns and provides a scientific 2D analytical view using Matplotlib. It includes a robust error-handling system to ensure program stability, making it a reliable tool for celestial geometry analysis. Overall, the project successfully bridges the gap between creative animation and precise data-driven modeling.

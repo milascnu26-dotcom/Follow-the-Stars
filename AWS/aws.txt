@@ -1,0 +1,4 @@
+server ip: 3.34.152.176
+Username :admin
+SSH key : /Users/sheulialalmila/Desktop/AWS/SSHkey.pem
+웹 폴더: /var/www/html
